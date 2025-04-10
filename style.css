@@ -36,3 +36,103 @@
     border-radius: 30px;
     border: none;
 }
+#about{
+    padding: 100px 0;
+}
+
+#about img{
+    width: 600px;
+    height: 450px;
+    border-radius: 30px;
+    border: 4px solid  #fff;
+    box-shadow: 0 0 30px rgb(23, 23, 212);
+}
+
+#about p{
+    width: 80%;
+    text-align: justify;
+}
+.cta{
+    height: 80vh;
+    background: url('./www.jpg') !important;
+    background-size: cover !important;
+    background: center;
+}
+.testimonials img{
+    width: 85px;
+
+}
+.testimonials {
+    padding: 20px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 30px rgb(34, 34, 233);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+section {
+    padding: 100px 0;
+}
+#review h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+#faq{
+    background-color: aqua;
+}
+#faq h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.faq-section {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: blue;
+
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 30px !important;
+}
+.accordion-button{
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #dce1f4;
+    border-radius: 30px !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.accordion-body{
+    border-left: 3px solid blue;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: aqua;
+}
+.accordion-button:not(.collapsed) {
+    background-color: aquamarine;
+    color: #dce1f4;
+}
+.accordion-button:hover {
+    background-color: blue;
+    color: #dce1f4;
+}
+footer {
+    padding: 50px 0;
+    background-color: #4262e2;
+}
+#footer ul.list-unstyled li a {
+    color: #fff;
+    text-decoration: none;
+}
+#footer ul.list-unstyled li:hover a {
+    color:aquamarine;
+
+}
+#footer .form_control {
+    border-radius: 7px 0 0 7px !important;
+}
